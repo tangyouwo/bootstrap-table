@@ -236,7 +236,7 @@
         <td>data-search</td>
         <td>Boolean</td>
         <td>false</td>
-        <td>Enable the search input.</td>
+        <td>默认false不显示搜索框，true的话，会在表格右上角显示搜索框，光标离开以及回车会触发查询事件。参数为:search.</td>
     </tr>
     <tr>
         <td>strictSearch</td>
@@ -250,7 +250,7 @@
         <td>data-search-text</td>
         <td>String</td>
         <td>''</td>
-        <td>When set search property, initialize the search text.</td>
+        <td>当search属性为true，可配置默认搜索的关键词.</td>
     </tr>
     <tr>
         <td>searchTimeOut</td>
