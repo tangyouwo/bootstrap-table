@@ -498,5 +498,16 @@
         Support all custom attributes.
         </td>
     </tr>
+    <tr>
+        <td>formatSearch</td>
+        <td>-</td>
+        <td>Function</td>
+        <td>{}</td>
+        <td>
+        例子：  formatSearch: function () {<br>
+        	   &nbsp;&nbsp;return '姓名';<br>
+		}<br>
+        </td>
+    </tr>
     </tbody>
 </table>
