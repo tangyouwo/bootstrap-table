@@ -53,21 +53,21 @@
         <td>data-striped</td>
         <td>Boolean</td>
         <td>false</td>
-        <td>True to stripe the rows.</td>
+        <td>隔行变色，默认false</td>
     </tr>
     <tr>
         <td>sortName</td>
         <td>data-sort-name</td>
         <td>String</td>
         <td>undefined</td>
-        <td>Defines which column can be sorted.</td>
+        <td>定义哪些列可以进行排序.</td>
     </tr>
     <tr>
         <td>sortOrder</td>
         <td>data-sort-order</td>
         <td>String</td>
         <td>'asc'</td>
-        <td>Defines the column sort order, can only be 'asc' or 'desc'.</td>
+        <td>定义列的排序顺序，只能是'asc'或'desc'.</td>
     </tr>
     <tr>
         <td>iconsPrefix</td>
@@ -92,7 +92,7 @@
         <td>-</td>
         <td>Array</td>
         <td>[]</td>
-        <td>The table columns config object, see column properties for more details.
+        <td>数据表格列配置对象，详见列属性说明中更多的细节.
         </td>
     </tr>
     <tr>
